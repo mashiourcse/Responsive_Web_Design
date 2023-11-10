@@ -6,6 +6,8 @@
     <title>CatPhotoApp</title>
   </head>
   <body>
+
+    <!-- main tag -->
     <main>
       <h1>CatPhotoApp</h1>
       <section>
@@ -14,39 +16,63 @@
         <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
         <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
       </section>
+
+      <!-- section -->
       <section>
+        
+        <!-- HTML tags h2 h3  -->
         <h2>Cat Lists</h2>
         <h3>Things cats love:</h3>
+
+         <!-- List unordered -->
         <ul>
           <li>cat nip</li>
           <li>laser pointers</li>
           <li>lasagna</li>
         </ul>
+
+        <!-- Figure tag -->
         <figure>
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
           <figcaption>Cats <em>love</em> lasagna.</figcaption>  
         </figure>
         <h3>Top 3 things cats hate:</h3>
+        
+        <!-- ordered list -->
         <ol>
           <li>flea treatment</li>
           <li>thunder</li>
           <li>other cats</li>
         </ol>
+
         <figure>
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
           <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
         </figure>
       </section>
+
+
       <section>
         <h2>Cat Form</h2>
+
+        <!-- form -->
         <form action="https://freecatphotoapp.com/submit-cat-photo">
+          
+          <!-- fieldset -->
           <fieldset>
             <legend>Is your cat an indoor or outdoor cat?</legend>
+
+            <!-- input tags different -->
+            
+            <!-- radio -->
             <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
             <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
           </fieldset>
+          
           <fieldset>
             <legend>What's your cat's personality?</legend>
+
+            <!-- checkbox -->
             <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
             <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
             <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
@@ -56,6 +82,8 @@
         </form>
       </section>
     </main>
+
+    <!-- footer -->
     <footer>
       <p>
         No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
